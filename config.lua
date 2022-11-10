@@ -13,7 +13,7 @@ QBConfig.Money.PayCheckSociety = false -- If true paycheck will come from the so
 
 QBConfig.Player = {}
 QBConfig.Player.HungerRate = 3.2 -- Rate at which hunger goes down.
-QBConfig.Player.ThirstRate = 3.8 -- Rate at which thirst goes down.
+QBConfig.Player.ThirstRate = 2.9 -- Rate at which thirst goes down.
 QBConfig.Player.Bloodtypes = {
     "A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-",
 }
@@ -25,9 +25,9 @@ QBConfig.Server.Uptime = 0 -- Time the server has been up.
 QBConfig.Server.Whitelist = false -- Enable or disable whitelist on the server
 QBConfig.Server.WhitelistPermission = 'admin' -- Permission that's able to enter the server when the whitelist is on
 QBConfig.Server.PVP = true -- Enable or disable pvp on the server (Ability to shoot other players)
-QBConfig.Server.Discord = "" -- Discord invite link
+QBConfig.Server.Discord = "https://discord.gg/Ppv2ygtN6g" -- Discord invite link
 QBConfig.Server.CheckDuplicateLicense = true -- Check for duplicate rockstar license on join
-QBConfig.Server.Permissions = { 'god', 'admin', 'mod' } -- Add as many groups as you want here after creating them in your server.cfg
+QBConfig.Server.Permissions = { 'god', 'admin', 'mod', 'addnewtypehere' } -- Add as many groups as you want here after creating them in your server.cfg
 
 QBConfig.Notify = {}
 
